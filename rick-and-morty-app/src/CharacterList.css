@@ -1,0 +1,10 @@
+.character-list {
+  width: 30vw;
+  height: calc(100vh - 135px);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  border-right-width: 3px;
+  border-right-style: solid;
+  border-right-color: #ffbbea;
+}

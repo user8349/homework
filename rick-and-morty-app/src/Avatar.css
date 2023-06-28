@@ -1,0 +1,12 @@
+.avatar {
+  border-width: 3px;
+  border-style: solid;
+  border-color: #ffbbea;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 2px 2px #ffeffe;
+}
+
+.avatar img {
+  width: 100%;
+}

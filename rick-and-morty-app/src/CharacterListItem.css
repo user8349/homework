@@ -1,0 +1,16 @@
+.character-list-item {
+  display: flex;
+  gap: 10px;
+  padding: 6px;
+}
+
+.character-list-item:hover {
+  background-color: #ffeffe;
+}
+
+.character-list-item__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}

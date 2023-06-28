@@ -1,0 +1,36 @@
+.character-info {
+  display: flex;
+  gap: 30px;
+}
+
+.character-info__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.character-info__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.character-info__header h1 {
+  margin: 0;
+}
+
+.character-info__status {
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.character-info__content table {
+  border-collapse: collapse;
+}
+
+.character-info__content table tbody td {
+  padding-bottom: 10px;
+}

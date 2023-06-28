@@ -1,0 +1,35 @@
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.row {
+  display: flex;
+}
+
+.row > * {
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.row > input {
+  width: 100%;
+  padding: 10px;
+  border-color: #ffbbea;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  outline: none;
+}
+
+.row > button {
+  margin-left: -3px;
+  padding: 0 20px;
+  border-color: #ffbbea;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #ffeffe;
+  font-weight: bold;
+}

@@ -1,0 +1,11 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.app__body {
+  display: flex;
+  gap: 20px;
+}
